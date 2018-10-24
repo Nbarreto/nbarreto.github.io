@@ -1,0 +1,193 @@
+html, body{
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  color:#1b3d3d;
+}
+
+/* TOP NAV */
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.topnav ul {
+  padding-inline-start: 0px;
+}
+
+.topnav a {
+  display: inline-grid;
+  vertical-align: middle;
+  color: #6ca29e;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 5px 2px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 15px;
+}
+
+.topnav a.active {
+  color: #1b3d3d;
+  border-bottom: 1px solid #1b3d3d;
+}
+
+.topnav a:hover {
+  color: #1b3d3d;
+}
+
+.topnav img {
+  padding: 5px;
+  margin: 20px 10px;
+  vertical-align: middle;
+}
+
+/* BODY */
+h1 {
+  font-size: 80px;
+  text-align: center;
+  font-weight: Bold;
+  letter-spacing: 3px;
+}
+
+h2, p {
+  font-family: "adelle", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+h3 {
+  padding: 120px 0px 0px 0px;
+  font-size: 36px;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 28px;
+  font-weight: 100px;
+  margin-bottom: 50px;
+}
+
+.hero-content {
+  background: url("../assets/Asset 1@2x.png");
+  background-color: #edf4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1800px 878.5812356979404px;
+  padding: 30px 0;
+  border: 1px solid #edf4f4;
+}
+
+/* WORK */
+
+.work {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+}
+
+.work ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.work ul {
+  margin: 0px;
+}
+
+.one-half {
+  width: 700px;
+}
+
+.left-box {
+  height: 450px;
+  width: auto;
+  background:
+  /* top, transparent */
+  linear-gradient(
+    rgba(27, 61, 61, 0.65),
+    rgba(27, 61, 61, 0.65)
+    ),
+    /* bottom, image */
+    url("../assets/Guidetribe Promo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px 523.5873287671233px;
+  /*transform: rotate(-30deg);*/
+  }
+
+.right-box {
+  height: 450px;
+  background:
+  /* top, transparent */
+  linear-gradient(
+    rgba(27, 61, 61, 0.80),
+    rgba(27, 61, 61, 0.80)
+    ),
+    /* bottom, image */
+    url("../assets/DOX Promo.jpg");
+  background-repeat: no-repeat;
+  background-size: 700px 497.77777777777777px;
+  }
+
+.container {
+  background: #1b3d3d;
+  position: relative;
+  letter-spacing: 1px;
+  padding: 0px 0px;
+}
+
+.btn {
+  border-radius: 100px;
+  font-weight: 100;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 30px;
+  background: #507c6f;
+  border: 1px solid white;
+}
+
+/* Footer */
+
+footer {
+  background: #edf4f4;
+  background: url("../assets/Asset 1@2x.png");
+  background-color: #edf4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1800px 878.5812356979404px;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.footer-container ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  display: inline-block;
+  padding-inline-start: 0px;
+
+}
+
+.social-btn a{
+  color: #ffffff;
+  border-radius: 100px;
+  background-color: #1b3d3d;
+  padding: 12px 14px;
+  margin: 20px;
+}
