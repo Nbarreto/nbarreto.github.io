@@ -50,11 +50,13 @@ body {
   vertical-align: middle;
 }
 
-@media (max-width: 640px) and (min-width: 320px) {
-  .topnav {
-    text-align: center;
+@media (max-width: 768px) and (min-width: 641px) {
+  .topnav a{
+    margin: 20px
   }
+}
 
+@media (max-width: 640px) and (min-width: 320px) {
   .topnav a {
     display: flex;
     float: right;
@@ -191,7 +193,7 @@ h2 {
   border: 1px solid white;
 }
 
-@media (max-width: 640px) and (min-width: 320px) {
+@media (max-width: 768px) and (min-width: 320px) {
   .btn {
     font-weight: 300;
   }
@@ -203,7 +205,7 @@ h2 {
     display: table;
 }
 
-@media (max-width: 640px) and (min-width: 320px) {
+@media (max-width: 768px) and (min-width: 320px) {
   .one-half {
     width: 100%;
   }
