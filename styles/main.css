@@ -102,7 +102,7 @@ p {
 
 .work ul li {
   list-style-type: none;
-  display: inline-block;
+  float: left;
 }
 
 .work ul {
@@ -110,7 +110,7 @@ p {
 }
 
 .one-half {
-  width: 700px;
+  width: 50%;
 }
 
 .left-box {
@@ -126,7 +126,7 @@ p {
     url("../assets/Guidetribe Promo.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 900px 523.5873287671233px;
+  background-size: cover;
   /*transform: rotate(-30deg);*/
   }
 
@@ -141,7 +141,7 @@ p {
     /* bottom, image */
     url("../assets/DOX Promo.jpg");
   background-repeat: no-repeat;
-  background-size: 700px 497.77777777777777px;
+  background-size: cover;
   }
 
 .container {
@@ -160,6 +160,12 @@ p {
   padding: 10px 30px;
   background: #507c6f;
   border: 1px solid white;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Footer */
