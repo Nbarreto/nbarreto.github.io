@@ -1,0 +1,30 @@
+.hero-circle {
+  background-color: #1b3d3d;
+  width: 458.19px;
+  height: 458.19px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.hero-content {
+  height: 458.19px;
+  padding: 40px 0px;
+  vertical-align: middle;
+ }
+
+ @media (max-width: 768px) and (min-width: 320px) {
+   .hero-circle {
+     width: 350px;
+     height: 350px;
+   }
+   .hero-content {
+     height: 350px;
+   }
+ }
+
+iframe {
+   display: block;
+   margin: auto;
+   padding-top: 60px;
+
+ }
