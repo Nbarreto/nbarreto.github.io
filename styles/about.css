@@ -1,0 +1,53 @@
+.hero-circle {
+  background-color: #1b3d3d;
+  width: 458.19px;
+  height: 458.19px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.hero-content {
+  height: 458.19px;
+  padding: 40px 0px;
+  vertical-align: middle;
+ }
+
+ @media (max-width: 768px) and (min-width: 320px) {
+   .hero-circle {
+     width: 350px;
+     height: 350px;
+   }
+   .hero-content {
+     height: 350px;
+   }
+ }
+
+.about {
+  margin-bottom: 80px;
+}
+
+.about-content p {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 250;
+  font-size: 36px;
+  margin: 0px 140px;
+  padding: 0px 0px 20px 0px;
+  text-align: justify;
+}
+
+.about-content h2 {
+  font-size: 48px;
+  margin: 0;
+  padding: 100px 0px 50px 0px;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .about-content p {
+    font-size: 20px;
+    margin: 0px 50px;
+  }
+  .about-content h2 {
+    font-size: 36px;
+    padding-top: 70px;
+  }
+}

@@ -18,7 +18,7 @@ body {
 }
 
 .topnav ul {
-  padding-inline-start: 0px;
+  padding-left: 0px;
 }
 
 .topnav a {
@@ -234,7 +234,7 @@ footer {
   margin-top: 0px;
   margin-bottom: 0px;
   list-style: none;
-  padding-inline-start: 0px;
+  padding-left: 0px;
 
 }
 
