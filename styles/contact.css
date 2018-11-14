@@ -1,5 +1,6 @@
 .hero-circle {
-  background-color: #1b3d3d;
+  background: url("../assets/Contact.png");
+  background-size: cover;
   width: 458.19px;
   height: 458.19px;
   border-radius: 50%;
@@ -22,6 +23,9 @@
    }
  }
 
+h1 {
+  font-size: 20px;
+}
 iframe {
    display: block;
    margin: auto;
