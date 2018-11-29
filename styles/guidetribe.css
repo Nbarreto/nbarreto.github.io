@@ -45,16 +45,31 @@ section h5 {
   font-weight: 250;
 }
 
+section li {
+  margin-top: 15px;
+}
+
 /* HERO */
 
-.hero-content {
+.hero-content2 {
+  background: #edf4f4;
   height: 458.19px;
   padding: 40px 0px;
   vertical-align: middle;
+  display: flex;
+
+ }
+
+ .hero-content2 h4 {
+   font-size: 40px;
+ }
+
+ .hero-content2 h2 {
+   text-align: left;
  }
 
 .hero-text {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
  .hero-text h4 {
@@ -189,7 +204,6 @@ section h5 {
 /* COMP ANALYSIS */
 .competitive-analysis img {
   margin: auto;
-  width: 80%;
   display: flex;
   justify-content:center;
   padding-bottom: 30px;
