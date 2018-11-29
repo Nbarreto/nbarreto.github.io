@@ -1,17 +1,64 @@
-/* HERO */
-.hero-circle {
-  background: #ffffff;
-  background-size: cover;
-  width: 458.19px;
-  height: 458.19px;
-  border-radius: 50%;
-  margin: auto;
+/* SECTION */
+
+section {
+  margin: 0px 250px;
 }
+
+section p {
+  margin-bottom: 25px;
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 35px;
+
+}
+
+section li {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+section h3 {
+  padding-top: 20px;
+  font-size: 30px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 15px 0px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+section h2 {
+  padding-top: 10px;
+}
+
+section btn {
+  margin: 10px 0px;
+
+}
+
+section h5 {
+  font-family: "adelle", serif;
+  font-weight: 250;
+}
+
+/* HERO */
 
 .hero-content {
   height: 458.19px;
   padding: 40px 0px;
   vertical-align: middle;
+ }
+
+.hero-text {
+  margin-left: 50px;
+}
+
+ .hero-text h4 {
+   margin: 0px;
  }
 
  @media (max-width: 768px) and (min-width: 320px) {
@@ -29,8 +76,8 @@
   display: flex;
   flex-direction: row;
   padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 0px;
+  padding-bottom: 20px;
   list-style: none;
 }
 
@@ -58,19 +105,19 @@
   }
 }
 
+
 /* PROCESS */
 .process-steps {
-  margin: 50px;
+  margin: 10px 50px 50px 10px;
 }
 
 .process-box {
   list-style: none;
   text-align: center;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin: auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  padding-left: 0px;
 }
 
 .process-box ul {
@@ -78,10 +125,23 @@
   padding-left: 0;
 }
 
+.process-box h4 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.process-box h5 {
+  margin-top: 0px;
+}
+
+.phase h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
 .phase-box {
-  margin: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin: 0px 10px;
+  padding: 30px 20px;
   width: 33.33%;
   border: 1px solid #d6dcdc;
   border-radius: 3px;
@@ -89,6 +149,7 @@
 
 .phase-box li {
   margin: 0px;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 767px) and (min-width: 320px) {
@@ -106,59 +167,24 @@
   }
 }
 
-/* BODY */
-p {
-  font-family: "mr-eaves-xl-modern", sans-serif;
-  font-weight: 350;
-  font-size: 30px;
-  margin: 0px 140px;
-  padding: 30px 0px 30px 0px;
-  text-align: justify;
-}
+/* SURVEY RESULTS */
 
- h3 {
-   font-size: 30px;
-   border-top: 2px solid black;
-   border-bottom: 2px solid black;
-   padding: 5px 0px;
-   margin: auto;
-   text-align: center;
-   vertical-align: middle;
- }
+/* PERSONAS */
 
-h4 {
-  font-size: 36px;
+/* SITE MAPS */
+
+/* WIREFRAMES */
+.wireframes img {
+  display: flex;
   margin: auto;
 }
 
-h5 {
-  font-size: 24px;
-  margin: 20px;
+/* TESTING */
+.usability-testing img {
+  display: flex;
+  margin: auto;
+  padding-bottom: 30px;
 }
-
-li {
-  font-size: 24px;
-  margin: 0px 140px;
-}
-
-@media (max-width: 768px) and (min-width: 320px) {
-  p, li {
-    font-size: 18px;
-    margin: 0px 50px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  h3, h4 {
-    font-size: 24px;
-  }
-}
-
-/* SURVEY RESULTS*/
-
-
-/* PERSONAS*/
-
 
 /* COMP ANALYSIS */
 .competitive-analysis img {
@@ -166,4 +192,60 @@ li {
   width: 80%;
   display: flex;
   justify-content:center;
+  padding-bottom: 30px;
+}
+
+/* REFLECTION */
+
+.reflection-content {
+  margin-bottom: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  background: #edf4f4;
+  background: url("../assets/Asset 1@2x.png");
+  background-color: #edf4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1800px 878.5812356979404px;
+  padding: 40px 0px 30px 0px;
+  text-align: center;
+}
+
+.footer-container ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.social-btn {
+  display: inline-block;
+}
+
+.social-btn a {
+  color: #ffffff;
+  border-radius: 100px;
+  background-color: #1b3d3d;
+  padding: 12px 14px;
+  margin: 20px;
+}
+
+.copyright {
+ display: inherit;
+ font-family: "adelle", serif;
+ padding: 40px 0px 0px 0px;
+ text-align: center;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .social-btn a {
+    margin: 10px;
+  }
+  .copyright {
+    font-size: 11px;
+  }
 }

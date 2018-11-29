@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <header>
     <!-- navigation bar -->
+<header>
     <nav class="topnav">
       <ul class="nav">
         <a class="active" href="homepage.html">WORK</a></li>
@@ -26,12 +26,17 @@
     </nav>
   </header>
 
-
   <!-- Hero -->
 <div class="hero-content">
-  <div class="hero-circle"></div>
+  <div class="hero-text">
+    <h4>CASE STUDY</h4>
+    <h2>GUIDETRIBE</h2>
+    <a href="https://drive.google.com/open?id=18BIDVoNiJ1ZOCZ5bMOfA0kEDCGclsCXZ/" class="btn">VIEW INVISION PROTOTYPE</a>
+  </div>
+  <img src="#"  alt="guidetribe" width=50%>
 </div>
 
+<section class="all">
   <!-- Body -->
   <div class=body>
     <ul class="case-study">
@@ -84,16 +89,17 @@
 
 <!-- PHASE 1 -->
 <div class="phase">
-  <h3>PHASE 1 : DISCOVERY AND RESEARCH</h3>
-</div>
+  <h3>PHASE 1 : DISCOVERY AND DEVELOPMENT</h3>
 
   <div class="survey-interviews">
     <h2>Survey/Interviews</h2>
     <p>Before delving into the design of GuideTribe, I needed to better understand:</p>
+    <ol>
       <li>whether there was a need for a tool like this, </li>
       <li>who would use this tool, and </li>
       <li>what types of features the tool should include</li>
-      <p>I conducted <strong>two surveys</strong> and <strong>one round of interviews</strong></p>
+    </ol>
+      <p>I conducted <strong>two surveys</strong> and <strong>one round of interviews. </strong></p>
   </div>
 
   <div class="survey-findings">
@@ -144,6 +150,7 @@
       <li>Creating and submitting a walking route</li>
       <li>Upgrading account</li>
     </ol>
+    <a href="https://docs.google.com/spreadsheets/d/11seFrlg-JhCieoU3MHJ-MGGjgdXbldtF3YXxN519TU4/edit#gid=0" class="btn">SEE ALL USER STORIES</a>
   </div>
 
   <div class="site-maps">
@@ -151,20 +158,20 @@
     <p>Below is the flow of action users will take to search for and select a route, and build a custom route.</p>
     <img src="#" alt="site-map">
   </div>
+</div>
 
 <!-- PHASE 2 -->
 <div class="phase">
   <h3>PHASE 2 : WIREFRAMING AND TESTING</h3>
-</div>
 
 <div class="wireframes">
   <h2>Wireframes</h2>
   <p>I translated my design notes and site maps into sketches  to define the placement of elements on each page.</p>
-  <img src="#" alt="LF sketch">
+  <img src="assets/GUIDETRIBE/Wireframe Sketch.jpg" alt="LF sketch" width=50%>
   <p>Next, I developed low-fidelity wireframes in Balsamiq that I used to build a clickable prototype in Invision to conduct preliminary testing with potential users.</p>
-  <img src="#" alt="LF wireframe">
+  <img src="assets/GUIDETRIBE/LOFI Wireframes.png" alt="LF wireframe" width=50%>
   <p>I then created high fidelity wireframes and a prototype using Figma that included written content for each screen.</p>
-  <img src="#" alt="HF wireframe">
+  <img src="assets/GUIDETRIBE/HIFI Wireframes.png" alt="HF wireframe" width=50%>
 </div>
 
 <div class="usability-testing">
@@ -173,7 +180,8 @@
     <p>I conducted three rounds of user testing on my high fidelity wireframes.</p>
     <h4>USABILITY TEST #1</h4>
     <p>I conducted three rounds of user testing on my High Fidelity wireframes.  I used Maze to conduct my first round of testing.  Of the 3 total participants, 2 had failed to complete the task that asked them to create a custom route.  Specifically, participants had the most difficulty with figuring out how to draw their custom map once destinations were added to it. The image below displays the activity of a participant that struggled with drawing their custom route.  Ultimately, this user gave up.</p>
-    <img src="#" alt="user testing">
+    <img src="assets/GUIDETRIBE/Hotspot Testing.png" alt="user testing" width=50%>
+    <img src="assets/GUIDETRIBE/Hotspot Testing - comment.png" alt="user testing" width=50%>
     <p>In light of this data, it was clear that the creation of a custom route needed resolving, especially since it is a core function of the application.</p>
   </div>
   <div class="test">
@@ -190,7 +198,7 @@
       </ul>
     </ol>
       <p>This feedback proved that creating a custom map needed to be simpler with less steps, and provide prompts that allowed for the more intuitive functions shared during the in-person usability tests.  In response to this feedback, I re-imagined this area.  Since incorporating these features into the “map build” made for a more complex experience, I replaced the “map build” with a “list build.”  Users would generate a list of locations that can be re-ordered by dragging, and edited within the list view.  This list can then be viewed on a map in its listed order.</p>
-      <img src="#" alt="custom map build">
+      <img src="assets/GUIDETRIBE/HIFI Map Build - After.png" alt="custom map build" width=60%>
     <h4>Usability Test #3</h4>
     <p>I conducted a third round of in-person testing with 3 users to evaluate the usability of the updated prototype. I utilized the “record” feature on my iphone to document these usability tests.  Each test took approximately 10 minutes.</p>
     <p>Users were asked to complete the following tasks:</p>
@@ -210,16 +218,18 @@
 
   <div class="branding">
     <h2>Branding</h2>
-    <p>Having completed extensive user testing, I developed a brand identity to incorporate into my final design mockups.</p>
-    <img src="#" alt="style tile">
+    <p>Having completed user testing, I developed a brand identity to incorporate into my final design mockups.</p>
+    <img src="assets/GUIDETRIBE/Guide Tribe Style.png" alt="style tile" width=80%>
+    <a href="https://www.figma.com/file/K7u02xGB1cC7Umj9mQAx3Agb/Guide-Tribe-Style-Guide" class="btn">SEE COMPLETE STYLE GUIDE</a>
     <h2>Design Mockup</h2>
     <p>I applied branding guidelines to my high fidelity wireframes.</p>
     <p>In order to address a concern around visibility of the search icon, I performed a preference test on the search component.</p>
     <img src="#" alt="preference test">
-    <p>Based on the results, users preferred the option "B".</p>
+    <p>Based on the results, users preferred the <strong>option "B".</strong></p>
   </div>
+</div>
 
-  <!-- REFLETION -->
+  <!-- REFLECTION -->
     <div class="reflection">
       <h3>REFLECTION</h3>
     </div>
@@ -227,5 +237,23 @@
     <div class="reflection-content">
       <p>This project strengthened my appreciation for the insights users have to offer.  Throughout user testings, I consistently found myself diving deeper into their expectations and ideas which helped drive changes to design and flow, and was ultimately instrumental in the shift to a “list built” map.</p>
     </div>
+
+</body>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <ul class= "social-btn">
+          <li><a href="https://www.linkedin.com/in/n-barreto/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <ul class= "social-btn">
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <ul class= "copyright">
+          <li>Designed and developed by Natasha Barreto &copy; copyright 2018</li>
+        </ul>
+      </div>
+    </footer>
 
 </div>
