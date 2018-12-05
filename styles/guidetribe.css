@@ -32,7 +32,7 @@ section h3 {
 }
 
 section h2 {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 section btn {
@@ -49,14 +49,58 @@ section li {
   margin-top: 15px;
 }
 
+.btn {
+  display: inline-block;
+  margin: 15px 0px;
+}
+
+.btn:hover{
+  border-color: #1b3d3d;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  section {
+   margin: 20px;
+  }
+
+  section p {
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+
+  section li {
+    font-size: 15px;
+  }
+
+  section h2 {
+    font-size: 28px;
+  }
+
+  section h4 {
+    font-size: 18px;
+  }
+
+  section h3 {
+    font-size: 16px;
+  }
+
+}
+
 /* HERO */
 
 .hero-content2 {
-  background: #edf4f4;
-  height: 458.19px;
+  background: url("../assets/Asset 1@2x.png");  height: 458.19px;
+  background-color: #edf4f4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1800px 878.5812356979404px;
   padding: 40px 0px;
   vertical-align: middle;
   display: flex;
+ }
+
+ .hero-content2 img {
+   margin-left: 120px;
 
  }
 
@@ -69,7 +113,8 @@ section li {
  }
 
 .hero-text {
-  margin-left: 100px;
+  margin-top: 100px;
+  margin-left: 150px;
 }
 
  .hero-text h4 {
@@ -77,12 +122,19 @@ section li {
  }
 
  @media (max-width: 768px) and (min-width: 320px) {
-   .hero-circle {
-     width: 350px;
-     height: 350px;
+   .hero-content2 {
+     height: 500px;
+     display: flex;
+     flex-direction: column;
    }
-   .hero-content {
-     height: 350px;
+   .hero-text {
+     text-align: center;
+     padding-top: 50px;
+     margin:auto;
+   }
+
+   .hero-content2 img {
+      margin-left: 40px;
    }
  }
 
@@ -170,6 +222,7 @@ section li {
 @media (max-width: 767px) and (min-width: 320px) {
   .process-box {
     flex-direction: column;
+    padding-left: 0px;
   }
   .process-box ul {
     padding-left: 0px;
@@ -179,12 +232,87 @@ section li {
   }
   .phase-box {
     width: auto;
+    margin: 10px 0px;
   }
 }
 
 /* SURVEY RESULTS */
 
+
+
 /* PERSONAS */
+.persona-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.persona-wrapper img {
+  margin: auto;
+  display: flex;
+
+}
+
+.individual {
+  width: 33.3%;
+  padding: 30px;
+  margin: 0px 10px;
+  border: 1px solid #d6dcdc;
+}
+
+.individual p {
+  font-size: 18px;
+  padding-bottom: 0px;
+  margin: 0px;
+  line-height: 20px;
+}
+
+.individual li {
+  font-size: 18px;
+  list-style: none;
+}
+
+.individual h4 {
+  font-size: 28px;
+  font-family: "adelle" , serif;
+  font-weight: 150;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.individual h6 {
+  margin: 30px 0px 15px 0px;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .persona-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .individual {
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .individual p {
+    font-size: 15px;
+  }
+
+  .individual li {
+    font-size: 15px;
+  }
+
+  .individual h4 {
+    font-size: 20px;
+  }
+
+}
 
 /* SITE MAPS */
 
@@ -202,11 +330,47 @@ section li {
 }
 
 /* COMP ANALYSIS */
-.competitive-analysis img {
-  margin: auto;
+.comp-wrapper {
+  width: 100%;
   display: flex;
-  justify-content:center;
-  padding-bottom: 30px;
+  flex-direction: row;
+  text-align: center;
+}
+
+.comp-wrapper img {
+  margin: auto;
+}
+
+.competitor {
+  width: 25%;
+  padding: 0px 5px;
+  margin: 0px 20px;
+}
+
+.competitor p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 20px;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .comp-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .competitor {
+    margin: auto;
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .competitor img {
+    width: 30%;
+  }
+  .competitor p {
+        line-height: 1.5em;
+  }
+
 }
 
 /* REFLECTION */
