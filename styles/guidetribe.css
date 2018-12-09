@@ -64,12 +64,12 @@ section li {
   }
 
   section p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5em;
   }
 
   section li {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   section h2 {
@@ -77,13 +77,19 @@ section li {
   }
 
   section h4 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   section h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  section {
+    margin: 80px;
+  }
 }
 
 /* HERO */
@@ -121,11 +127,14 @@ section li {
    margin: 0px;
  }
 
- @media (max-width: 768px) and (min-width: 320px) {
+ @media (max-width: 767px) and (min-width: 320px) {
    .hero-content2 {
      height: 500px;
      display: flex;
      flex-direction: column;
+   }
+   .hero-content2 h2 {
+     text-align: center;
    }
    .hero-text {
      text-align: center;
@@ -137,6 +146,27 @@ section li {
       margin-left: 40px;
    }
  }
+
+ @media (max-width: 1024px) and (min-width: 768px) {
+  .hero-content2 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-content2 h2 {
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+    margin:auto;
+  }
+  .hero-content2 img {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
 
 /* PROBLEM AND SOLUTION */
 .case-study {
@@ -157,7 +187,7 @@ section li {
   width: 50%;
 }
 
-@media (max-width: 768px) and (min-width: 320px) {
+@media (max-width: 767px) and (min-width: 320px) {
   .case-study {
     display: flex;
     flex-direction: column;
@@ -231,8 +261,25 @@ section li {
     margin: 15px;
   }
   .phase-box {
-    width: auto;
-    margin: 10px 0px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .process-box {
+    flex-direction: row;
+    padding-left: 0px;
+  }
+  .process-box ul {
+    padding-left: 0px;
+  }
+  .process-steps {
+    margin: auto;
+  }
+  .phase-box {
+    width: 33.33%;
   }
 }
 
@@ -289,7 +336,7 @@ section li {
   font-weight: 600px;
 }
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (max-width: 768px) and (min-width: 320px) {
   .persona-wrapper {
     display: flex;
     flex-direction: column;
@@ -297,7 +344,7 @@ section li {
   .individual {
     margin: auto;
     margin-top: 20px;
-    width: 80%;
+    width: 60%;
   }
 
   .individual p {
@@ -372,6 +419,25 @@ section li {
   }
 
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .comp-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .competitor {
+    margin: auto;
+    margin-top: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 60%;
+  }
+
+  .competitor img {
+    width: 50%;
+  }
+}
+
 
 /* REFLECTION */
 
