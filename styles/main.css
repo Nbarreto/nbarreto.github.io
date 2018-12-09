@@ -10,7 +10,6 @@ body {
 }
 
 /* TOP NAV */
-
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -51,7 +50,7 @@ body {
 }
 
 @media (max-width: 768px) and (min-width: 641px) {
-  .topnav a{
+  .topnav a {
     margin: 20px
   }
 }
@@ -74,6 +73,7 @@ body {
     float: left;
   }
 }
+
 
 /* BODY */
 h1 {
