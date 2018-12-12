@@ -49,6 +49,10 @@ section li {
   margin-top: 15px;
 }
 
+section ol {
+  margin-bottom: 20px;
+}
+
 .btn {
   display: inline-block;
   margin: 15px 0px;
@@ -284,9 +288,11 @@ section li {
 }
 
 /* SURVEY RESULTS */
-
-
-
+.survey-findings img {
+  margin: auto;
+  display: flex;
+  width: 100%
+}
 /* PERSONAS */
 .persona-wrapper {
   width: 100%;
@@ -362,10 +368,15 @@ section li {
 }
 
 /* SITE MAPS */
-
-/* WIREFRAMES */
-.wireframes img {
+.user-flows img {
   display: flex;
+  margin: auto;
+  padding-top: 25px;
+}
+/* WIREFRAMES */
+.wireframe-left img {
+  display: flex;
+  flex
   margin: auto;
 }
 
@@ -443,6 +454,12 @@ section li {
 
 .reflection-content {
   margin-bottom: 100px;
+}
+
+/* PREFERENCE TEST*/
+.branding img {
+  display: flex;
+  padding-bottom: 0px;
 }
 
 /* FOOTER */
