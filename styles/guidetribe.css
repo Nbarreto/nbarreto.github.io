@@ -131,6 +131,15 @@ section ol {
    margin: 0px;
  }
 
+ .hero-text2 {
+   margin-top: 100px;
+   margin-left: 150px;
+ }
+
+ .hero-text2 h2{
+   padding-right: 200px;
+ }
+
  @media (max-width: 767px) and (min-width: 320px) {
    .hero-content2 {
      height: 500px;
@@ -148,6 +157,14 @@ section ol {
 
    .hero-content2 img {
       margin-left: 40px;
+   }
+   .hero-text2 h2{
+     padding-right: 0px;
+     text-align: center;
+   }
+
+   .hero-text2 {
+     text-align: center;
    }
  }
 
