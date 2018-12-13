@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://use.typekit.net/lzu8uis.css">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/guidetribe.css">
+  <link rel="stylesheet" href="styles/index.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
@@ -31,6 +31,7 @@
   <div class="hero-text2">
     <h4>CASE STUDY</h4>
     <h2>DOX</h2>
+    <p>A cloud storage tool</p>
     <a href="https://invis.io/UCPJ1OLPM3A" class="btn">VIEW INVISION PROTOTYPE</a>
   </div>
   <div class="guidetribe-pic">
@@ -100,7 +101,14 @@
 
   <div class="survey-findings">
     <h4>SURVEY HIGHLIGHTS</h4>
-    <img src="assets/GUIDETRIBE/Survey Findings.png"  alt="survey findings" width=50%>
+    <ul class="highlights">
+      <li>100% browse the internet using their smartphone and more than half use their laptop.  News, social networks and videos were most often searched for when browsing online.</li>
+      <li>70%  save links or images that they find interesting.  This content is most often saved by bookmarking using their browser.  Respondents noted difficulty with managing these bookmarks and keeping them organized.</li>
+      <li>60% take notes for either personal or business and use their smartphone to do this.  Respondents seem to value simplicity and the ability to sync their notes with all of their devices.</li>
+      <li>85% use social media to sign up for accounts on other websites due to its ease and speed.</li>
+      <li>100 % work in collaborative work environments and the majority share resources and collaborate with their co-workers.</li>
+    </ul>
+    <p>Based on this information, it is clear that we’ll need to create a platform that is accessible on a different types of devices and that allows for syncing content across these devices. Since managing bookmarks is an area of difficulty, we will need to focus on ways to organize saved items.  We will want to ensure that Dox is simple to use and that collaboration is easy.  Social media should be a feature available for use when signing up for an account.</p>
   </div>
 
   <div class="personas">
@@ -111,51 +119,63 @@
     <div class="individual">
       <img src="assets/DOX/amit.png" alt=persona width=80%>
       <h4>AMIT W.</h4>
+      <ul class="info">
       <li><strong>Age</strong> | 32</li>
       <li><strong>Occupation</strong> | User Research</li>
       <li><strong>Location</strong> | New York City</li>
       <li><strong>Gender</strong> | Male</li>
+    </ul>
       <div class="persona-content">
         <h6>MOTIVATION</h6>
         <p>Amit  is  an  avid  reader  and  frequently  saves  articles  to  read  when  he  is  on  the  go.    Since  heis  constantly  on  the  move,  he  most  often  uses  his  cell  phone  to  browse  the  internet  for  interesting  articles  or  content.    He  likes  to  be  able  to  access  content  from  anywhere,  not  juston  his  computer.    He  currently  works  in  a  very  collaborative  environment  and  uses  GoogleDrive  to  partner  with  his  colleagues  on  projects  in  real-time  but  finds  that  comments  andedits  crowd  the  document,  which  makes  it  difficult  to  read.</p>
           <h6>FRUSTRATIONS</h6>
-          <li>- Downloaded material takes up too much space on device</li>
-          <li>- Collaborating with others can become messy and documents are overburdened</li>
-          <li>- Difficulty managing saved content</li>
+          <ul class="frustrations">
+          <li>Downloaded material takes up too much space on device</li>
+          <li>Collaborating with others can become messy and documents are overburdened</li>
+          <li>Difficulty managing saved content</li>
+        </ul>
         </div>
       </div>
 
       <div class="individual">
         <img src="assets/DOX/nikki.png" alt=persona width=80%>
         <h4>NICOLE B.</h4>
+        <ul class="info">
         <li><strong>Age</strong> | 23</li>
         <li><strong>Occupation</strong> | Student</li>
         <li><strong>Location</strong> | New York City</li>
         <li><strong>Gender</strong> | Female</li>
+      </ul>
         <div class="persona-content">
           <h6>MOTIVATION</h6>
           <p>Nicole  is  a  busy  mom  and  student,  so  she  relies  on  her  phone  to  keep  track  of  daily  activitiesand  to  save  content  that  is  useful  to  her.    She  typically  uses  Pinterest,  bookmarks  or  takes  screenshots  to  save  content  related  to  her  coursework,  baking  and  helpful  parenting  articles.    Since  her  commute  to  school  into  the  city  is  long  and  she  often  does  not  have  access  to  the  internet,  she  would  like  to  be  able  to  access  content  off-line.</p>
             <h6>FRUSTRATIONS</h6>
-            <li>- Difficulty managing and organizing saved content</li>
-            <li>- Unable to view content without access to the internet</li>
-            <li>- Hard to find saved content</li>
+            <ul class="frustrations">
+            <li>Difficulty managing and organizing saved content</li>
+            <li>Unable to view content without access to the internet</li>
+            <li>Hard to find saved content</li>
+          </ul>
           </div>
         </div>
 
         <div class="individual">
           <img src="assets/DOX/justin.png" alt=persona width=80%>
           <h4>JUSTIN B.</h4>
+          <ul class="info">
           <li><strong>Age</strong> | 30</li>
           <li><strong>Occupation</strong> | Customer Service</li>
           <li><strong>Location</strong> | New York City</li>
           <li><strong>Gender</strong> | Male</li>
+        </ul>
           <div class="persona-content">
             <h6>MOTIVATION</h6>
             <p>Justin  spends  a  lot  of  his  time  on  social  media,  reading  news  articles,  and  reading  onlinemagazines.    When  he  comes  across  content  that  interests  him,  he  typically  bookmarks  it,  takes  a  screenshot,  or  saves  it  in  its  respective  application.    He  is  currently  in  search  of  a  toolthat  allows  him  to  save  all  of  his  content  in  one  place,  since  keeping  track  of  it  all  has  becomeoverwhelming.</p>
               <h6>FRUSTRATIONS</h6>
-              <li>- Managing saved content on multiple platforms is overwhelming</li>
-              <li>- Easy to forget what has been saved</li>
-              <li>- Existing tools are not able to support saving of a diversity of content</li>
+              <ul class="frustrations">
+              <li>Managing saved content on multiple platforms is overwhelming</li>
+              <li>Easy to forget what has been saved</li>
+              <li>Existing tools are not able to support saving of a diversity of content</li>
+            </ul>
             </div>
           </div>
         </div>

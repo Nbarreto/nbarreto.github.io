@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://use.typekit.net/lzu8uis.css">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/guidetribe.css">
+  <link rel="stylesheet" href="styles/index.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
@@ -30,6 +30,7 @@
   <div class="hero-text">
     <h4>CASE STUDY</h4>
     <h2>GUIDETRIBE</h2>
+    <p>A trip planning application for ios</p>
     <a href="https://www.figma.com/proto/airUc9Vu3FLGZpWvbhOtvN/Guide-Tribe-Design-Mockup-v3?node-id=0%3A1&scaling=scale-down" class="btn">VIEW FIGMA PROTOTYPE</a>
   </div>
   <div class="guidetribe-pic">
@@ -105,7 +106,13 @@
 
   <div class="survey-findings">
     <h4>SURVEY HIGHLIGHTS</h4>
-    <img src="assets/GUIDETRIBE/Screen Shot 2018-12-10 at 4.19.04 PM.png" alt="survey-findings">
+    <ul class="highlights">
+      <li>100% of respondents use a mobile device to learn more about sights they are seeing, and to navigate the city they are visiting.</li>
+      <li>72% of respondents reported that they asked locals for their first hand recommendations.</li>
+      <li>72% of respondents create pre-planned daily itineraries of sights and activities.</li>
+      <li>The majority of respondents used Tripadvisor and Google Maps to plan their trips.</li>
+      <li>The top 5 sightseeing categories sought after were Historic/Cultural Monuments, Restaurants/Food, Neighborhoods, Museums and “off the beaten path.</li>
+    </ul>
   <div class="interview-findings">
     <h4>INTERVIEW FINDINGS</h4>
     <p>During my user interviews, I asked questions that probed into past planning experiences and behaviors.  These interviews revealed some major pain points while planning:</p>
@@ -127,10 +134,12 @@
     <div class="individual">
       <img src="assets/GUIDETRIBE/maggie.png" alt=persona width=80%>
       <h4>MAGGIE W.</h4>
+      <ul class="info">
       <li><strong>Age</strong> | 29</li>
       <li><strong>Occupation</strong> | Graphic Designer</li>
       <li><strong>Location</strong> | New York City</li>
       <li><strong>Gender</strong> | Female</li>
+      </ul>
       <div class="persona-content">
         <h6>MOTIVATION</h6>
         <p>Maggie wants to create a personal, and authentic experience.
@@ -139,19 +148,23 @@
           instagram photos and by speaking with locals. She is looking for a tool that will help her
           plan her trips more quickly, and learn more about the cities she is visiting.</p>
           <h6>FRUSTRATIONS</h6>
-          <li>- It is difficult to know where the best locations are for sightseeing</li>
-          <li>- Even while using Google Maps, she still makes plenty of wrong turns</li>
-          <li>- Planning for sightseeing trips takes too long</li>
+          <ul class="frustrations">
+          <li>It is difficult to know where the best locations are for sightseeing</li>
+          <li>Even while using Google Maps, she still makes plenty of wrong turns</li>
+          <li>Planning for sightseeing trips takes too long</li>
+        </ul>
         </div>
       </div>
 
       <div class="individual">
         <img src="assets/GUIDETRIBE/jeff.png" alt=persona width=80%>
         <h4>JEFFREY B.</h4>
+        <ul class="info">
         <li><strong>Age</strong> | 28</li>
         <li><strong>Occupation</strong> | Personal Trainer</li>
         <li><strong>Location</strong> | New York City</li>
         <li><strong>Gender</strong> | Male</li>
+        </ul>
         <div class="persona-content">
           <h6>MOTIVATION</h6>
           <p>When planning, Jeffrey typically uses online resources like TripAdvisor, Yelp, and Fodors, but due to his demanding
@@ -160,21 +173,25 @@ sights that have historic or cultural significance, and often finds himself “g
 of stumbling upon some hidden gems since he rarely has the time to do research beforehand.
 He could benefit from an application that does “the dirty work for him.”</p>
             <h6>FRUSTRATIONS</h6>
-            <li>- There is an overwhelming amount of information on the internet to sort through</li>
-            <li>- Building a well thought out itinerary is time consuming</li>
-            <li>- Difficult to know which sights are worth seeing</li>
+            <ul class="frustrations">
+            <li>There is an overwhelming amount of information on the internet to sort through</li>
+            <li>Building a well thought out itinerary is time consuming</li>
+            <li>Difficult to know which sights are worth seeing</li>
+          </ul>
           </div>
         </div>
 
         <div class="individual">
-          <img src="assets/GUIDETRIBE/cresa.png" alt=persona width=80%>
+          <img src="assets/GUIDETRIBE/cresa.png" alt=persona width=70%>
           <h4>KARESA G.</h4>
-          <li><strong>Age</strong> | 30</li>
-          <li><strong>Occupation</strong> | Therapist</li>
-          <li><strong>Location</strong> | New York City</li>
-          <li><strong>Gender</strong> | Female</li>
+          <ul class="info">
+            <li><strong>Age</strong> | 30</li>
+            <li><strong>Occupation</strong> | Therapist</li>
+            <li><strong>Location</strong> | New York City</li>
+            <li><strong>Gender</strong> | Female</li>
+            </ul>
           <div class="persona-content">
-            <h6>MOTIVATION</h6>
+          <h6>MOTIVATION</h6>
             <p>Karesa is an avid traveler who enjoys exploring new cultures through the eyes of locals.
 Even though she is equipped on trips with a full itinerary, she often relies on asking locals
 for their recommendations. While planning, she typically builds her itinerary by referring to
@@ -182,21 +199,23 @@ pre-made itineraries developed by her favorite travel bloggers because they ofte
 lesser known sights and cuts planning time in half. She uses Google Maps to navigate new
 cities, but finds it it unreliable when used offline</p>
               <h6>FRUSTRATIONS</h6>
-              <li>- It’s difficult to know how far sights are, and if there is enough to time to visit them in a day</li>
-              <li>- Navigating new places can often be confusing, even with a map</li>
-              <li>- Trip information is scattered among different applications</li>
+              <ul class="frustrations">
+              <li>It’s difficult to know how far sights are, and if there is enough to time to visit them in a day</li>
+              <li>Navigating new places can often be confusing, even with a map</li>
+              <li>Trip information is scattered among different applications</li>
+            </ul>
             </div>
           </div>
         </div>
 
-          <a href="https://drive.google.com/drive/u/0/folders/16DJ3qnIgnlbAdexNghf0G72r4JyqJ7oX/" class="btn">SEE FULL PERSONAS ANALYSIS</a>
-          <p>Based on these findings, it was clear that a need for a mobile based tool that facilitated sightseeing trip planning existed.  It was also clear that sightseers could benefit from an application that sourced route and location recommendations from past visitors and locals.</p>
-          <h4>PERSONA GOALS</h4>
+          <a href="https://drive.google.com/drive/u/0/folders/16DJ3qnIgnlbAdexNghf0G72r4JyqJ7oX/" class="btn">VIEW ALL PERSONAS</a>
+          <h4>GOALS IDENTIFIED BY PERSONAS</h4>
           <ol>
             <li>Reduce trip planning time</li>
             <li>A way to build personalized itinerary of sights</li>
             <li>A way to consolidate trip information into one application</li>
           </ol>
+          <p>Based on these findings, it was clear that a need for a mobile based tool that facilitated sightseeing trip planning existed.  It was also clear that sightseers could benefit from an application that sourced route and location recommendations from past visitors and locals.</p>
         </div>
 
   <div class="competitive-analysis">
@@ -240,26 +259,20 @@ cities, but finds it it unreliable when used offline</p>
     <a href="https://drive.google.com/open?id=18BIDVoNiJ1ZOCZ5bMOfA0kEDCGclsCXZ/" class="btn">DOWNLOAD COMPETITIVE ANALYSIS</a>
     <p>Based on this research, it was clear that the application should focus on ease of use to ensure a low barrier of entry, and that an ability to generate personal customized maps could be a competitive advantage.</p>
   </div>
-
+These user stories were then converted in user flows to describe and visualize how the user would interact with the product to accomplish those stories.
   <div class="user-flows">
-    <h2>User Flows</h2>
-    <p>Focusing on the main tasks of GuideTribe users, I created a number of user stories and task flows which informed the site maps for five of the most important user flows.</p>
-    <ol>
-      <li>New user sign-up</li>
-      <li>Returning user log-in</li>
-      <li>Searching for and selecting a walking route</li>
-      <li>Creating and submitting a walking route</li>
-      <li>Upgrading account</li>
-    </ol>
-    <a href="https://docs.google.com/spreadsheets/d/11seFrlg-JhCieoU3MHJ-MGGjgdXbldtF3YXxN519TU4/edit#gid=0" class="btn">SEE ALL USER STORIES</a>
+    <h2>User Stories and User Flows</h2>
+    <p>Focusing on the main tasks of GuideTribe users, I developed a number of user stories to help prioritize product features. These were then converted into user flows to describe and visualize five of the most important user activities.</p>
+    <a href="https://docs.google.com/spreadsheets/d/11seFrlg-JhCieoU3MHJ-MGGjgdXbldtF3YXxN519TU4/edit#gid=0" class="btn">VIEW ALL USER STORIES</a>
   </div>
 
   <div class="site-maps">
-    <h2>Site Maps</h2>
-    <p>Below is the flow of action users will take to search for and select a route, and build a custom route.</p>
+    <h4>USER FLOW | Route Search and Selection</h4>
     <img src="assets/sitemap/Guide Tribe User Flows-Search.jpg" alt="site-map" width=100%>
+    <h4>USER FLOW | Registered User Dashboard</h4>
     <img src="assets/sitemap/Guide Tribe User Flows-Dashboard + Custom Map Creation.jpg" alt="site-map" width=100%>
-    <a href="https://drive.google.com/open?id=18BIDVoNiJ1ZOCZ5bMOfA0kEDCGclsCXZ/" class="btn">SEE ALL SITE MAPS</a>
+    <h4>USER FLOW | Custom Map Creation</h4>
+    <a href="https://drive.google.com/open?id=18BIDVoNiJ1ZOCZ5bMOfA0kEDCGclsCXZ/" class="btn">VIEW ALL USER FLOWS</a>
   </div>
 </div>
 
@@ -281,14 +294,23 @@ cities, but finds it it unreliable when used offline</p>
   <div class="test">
     <h2>Usability Testing</h2>
     <p>I conducted three rounds of user testing on my high fidelity wireframes.</p>
-    <h4>USABILITY TEST #1</h4>
-    <p>I used Maze to conduct my first round of testing.  Of the 3 total participants, 2 had failed to complete the task that asked them to create a custom route.  Specifically, participants had the most difficulty with figuring out how to draw their custom map once destinations were added to it. The image below displays the activity of a participant that struggled with drawing their custom route.  Ultimately, this user gave up.</p>
+    <h4>USABILITY TEST #1 | Using Maze</h4>
+    <p>I used Maze to conduct my first round of testing.  During the test, participants were asked to:<p>
+      <ol>
+        <li>Sign-up for an account</li>
+        <li>Set-up an account</li>
+        <li>Conduct a search for routes in New York City</li>
+        <li>Create a custom route</li>
+        <li>Draw a custom map</li>
+      </ol>
+    <p>Of the 3 total participants, 2 had failed to complete the task that asked them to create a custom route.  Specifically, participants had the most difficulty with figuring out how to draw their custom map once destinations were added to it.</p>
+    <p> The image below displays the activity of a participant that struggled with drawing their custom route.  Ultimately, this user gave up.</p>
     <img src="assets/GUIDETRIBE/Hotspot Testing.png" alt="user testing" width=50%>
     <img src="assets/GUIDETRIBE/Hotspot Testing - comment.png" alt="user testing" width=50%>
     <p>In light of this data, it was clear that the creation of a custom route needed resolving, especially since it is a core function of the application.</p>
   </div>
   <div class="test">
-    <h4>USABILITY TEST #2</h4>
+    <h4>USABILITY TEST #2 | In-person Testing</h4>
     <p>In an effort to solve this problem, I conducted 2 in-person usability tests to delve deeper into the issues that stood in the way of success.  Several insights came out of these in-person tests:</p>
     <ol>
       <li>The process for adding location pins via the search function was not obvious.</li>
@@ -301,11 +323,12 @@ cities, but finds it it unreliable when used offline</p>
       </ul>
     </ol>
       <p>This feedback proved that creating a custom map needed to be simpler with less steps, and provide prompts that allowed for the more intuitive functions shared during the in-person usability tests.  In response to this feedback, I re-imagined this area.  Since incorporating these features into the “map build” made for a more complex experience, I replaced the “map build” with a “list build.”  Users would generate a list of locations that can be re-ordered by dragging, and edited within the list view.  This list can then be viewed on a map in its listed order.</p>
-      <h4>BEFORE</h4>
+      <p>Here is what the route creation process looked like before, and after.</p>
+      <h4>BEFORE </h4>
       <img src="assets/GUIDETRIBE/Screen Shot 2018-12-10 at 4.43.01 PM.png" alt="custom map build" width=100%>
       <h4>AFTER</h4>
       <img src="assets/GUIDETRIBE/HIFI Map Build - After.png" alt="custom map build" width=100%>
-    <h4>USABILITY TEST #3</h4>
+    <h4>USABILITY TEST #3 | In-person Testing</h4>
     <p>I conducted a third round of in-person testing with 3 users to evaluate the usability of the updated prototype. I utilized the “record” feature on my iphone to document these usability tests.  Each test took approximately 10 minutes.</p>
     <p>Users were asked to complete the following tasks:</p>
     <ol>
@@ -324,14 +347,18 @@ cities, but finds it it unreliable when used offline</p>
 
   <div class="branding">
     <h2>Branding</h2>
-    <p>Having completed user testing, I developed a brand identity to incorporate into my final design mockups.</p>
+    <p>Having completed user testing, I developed a brand identity to incorporate into my final design mockups.  </p>
+    <p>The brand name was developed through mindmapping.  The main concept for the application is to crowdsource sightseeing routes from those that know cities the best - locals and past visitors.  These groups  make up a community resource - <strong>your “tribe” of “guides.”</strong></p>
+    <p>GuideTribe's logo represents the overall brand and its values.  The final design was influenced by the World Triad as it is a universal representation of inter-dependance,  inter-connectedness and community.  The individual shapes mirror location markers.  The formation mimics the shape repetition we typically see in tribal patterns across the world.</p>
+    <img src="assets/GUIDETRIBE/Screen Shot 2018-12-12 at 9.36.03 PM.png" alt="guidetribe logo" width="100%">
+    <p>In considering the color scheme for GuideTribe, I turned to my own love of vintage maps.  I scoured the internet for examples that reflected the vivid and contrasting tones inherent in these old maps.  I selected the colors that were consistent among these maps - shades of teal, pink, yellow and orange.</p>
     <img src="assets/GUIDETRIBE/Guide Tribe Style.png" alt="style tile" width=100%>
-    <a href="https://www.figma.com/file/K7u02xGB1cC7Umj9mQAx3Agb/Guide-Tribe-Style-Guide" class="btn">SEE COMPLETE STYLE GUIDE</a>
+    <a href="https://www.figma.com/file/K7u02xGB1cC7Umj9mQAx3Agb/Guide-Tribe-Style-Guide" class="btn">VIEW COMPLETE STYLE GUIDE</a>
     <h2>Design Mockup</h2>
     <p>I applied branding guidelines to my high fidelity wireframes.</p>
     <p>In order to address a concern around visibility of the search icon, I performed a preference test on the search component.</p>
     <img src="assets/GUIDETRIBE/Artboard 6@2x.png" alt="preference test" width="100%">
-    <p>Based on the results, users preferred the <strong>option "B".</strong></p>
+    <p>Based on the results, users preferred <strong>option "B"</strong>.  After interviewing the respondents on their selections, I learned that the majority found the search icon to be easier to see. Specifically, the turquoise background was bright which helped it stand out and the magnifying glass appeared to be bigger. </p>
     <h4>FINAL DESIGN</h4>
     <img src="assets/GUIDETRIBE/Artboard 5@2x.png" alt="final-design" width="100%">
     <a href="https://www.figma.com/proto/airUc9Vu3FLGZpWvbhOtvN/Guide-Tribe-Design-Mockup-v3?node-id=0%3A1&scaling=scale-down" class="btn">VIEW FIGMA PROTOTYPE</a>
