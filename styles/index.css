@@ -137,6 +137,7 @@ section ol {
 }
 
 .hero-text p {
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -150,6 +151,7 @@ section ol {
  }
 
  .hero-text2 p {
+   margin-top: 10px;
    margin-bottom: 30px;
  }
 
@@ -179,7 +181,6 @@ section ol {
      padding-right: 0px;
      text-align: center;
    }
-
    .hero-text2 {
      text-align: center;
      margin-left: 0px;
@@ -200,6 +201,18 @@ section ol {
     text-align: center;
     margin:auto;
   }
+
+  .hero-text2 {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .hero-text2 h2{
+    padding-right: 0px;
+    text-align: center;
+  }
+
   .hero-content2 img {
     width: 45%;
     display: block;
