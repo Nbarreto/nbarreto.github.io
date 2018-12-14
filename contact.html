@@ -24,6 +24,22 @@
       <a class="active" href="contact.html">CONTACT</a></li>
     </ul>
     </nav>
+
+    <nav class="topnav-mobile">
+      <a href="homepage.html"><img src="assets/Asset 3@2x.png" width="10%"></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="homepage.html">WORK</a>
+        <a href="https://drive.google.com/open?id=1ycE2EBfTOyXQ51Jmt-huzBfDdInmPSxq">EXPERIENCE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
   </header>
 
   <!-- Hero-->
@@ -50,5 +66,17 @@
     </div>
   </footer>
 
+
+        <!-- javascript -->
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
 
 </body>
